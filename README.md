@@ -1,2 +1,2 @@
-# go_project
+# go-project
 Golang playground
