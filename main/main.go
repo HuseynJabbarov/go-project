@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"go-project/test"
 	"net/http"
 	"strconv"
 )
@@ -33,7 +34,7 @@ func main() {
 		}
 
 	})
-
+	test.PublicFunction()
 	http.ListenAndServe(":8080", nil)
 
 }
